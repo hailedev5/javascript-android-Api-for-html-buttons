@@ -54,6 +54,9 @@ AndroidAPI.copyToClipboard('copied text');
 function getvalue(){
 var clipboardText = AndroidAPI.pasteFromClipboard();
 }
+function getValue(){
+  AndroidAPI.setTorch(false)
+}
 function getvalue(){
 AndroidAPI.shareText('Share text');
 }
